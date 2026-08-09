@@ -1,6 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
-
+src/dlam_ts_project.egg-info
 outputs/
 checkpoints/
+.idea/
+.cache/
+predictions.csv

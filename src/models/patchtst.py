@@ -28,7 +28,10 @@ class ForecastModel(nn.Module):
             d_model=args.d_model,
             num_hidden_layers=args.num_layers,
             num_attention_heads=args.num_heads,
-            dropout=args.dropout,
+            attention_dropout=args.dropout,
+            ff_dropout=args.dropout,
+            positional_dropout=args.dropout,
+            head_dropout=args.dropout,
             loss="mse",
         )
 

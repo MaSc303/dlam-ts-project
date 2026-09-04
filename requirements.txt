@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+datasets>=5.0.1
+huggingface-hub>=1.26.0
+matplotlib>=3.11.1
+numpy>=2.5.1
+pandas>=3.0.5
+scikit-learn>=1.9.0
+torch>=2.13.0
+transformers>=5.16.1

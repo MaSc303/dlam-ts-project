@@ -6,4 +6,8 @@ outputs/
 checkpoints/
 .idea/
 .cache/
-predictions.csv
+*csv
+predictions/*
+*png
+*db
+checkpoint.pt
